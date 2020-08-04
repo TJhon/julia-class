@@ -71,9 +71,11 @@ expt = map(y -> y^2, x)
 none = 1
 println(none)
 while none > 0.05
+    global none
     none /= 2
     return none
 end # me sale un error de que delta no esta definido 
+## se corrige con global para que evalue valores fuera del entorno de la funccion booleada
 
 m = 3
 n = 2
