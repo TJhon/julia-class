@@ -145,9 +145,9 @@ modi_gra = plot(
     x, 
     [y1, y2], 
     shape = [:circle :diamond], 
-    line = [:dot : dash], 
+    line = [:dot :dash], 
     grid = true
 )
 # para guardar graficos esta funcion esta presente en casi todas las librerias de graficadoras, 
 # savefig(nombre_guardado, "myplot")
-savefig(modi_gra, "test.pdf")
+savefig(modi_gra, "fig/ test.pdf")

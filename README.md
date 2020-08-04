@@ -21,3 +21,5 @@ Todos lo que se hace aqui no son mas que notas rapidas, por lo que algunos paso 
   - si su internet es tan lento que les quita las ganas de aprender Julia,
   - activar modo VPN, descargar la libreria directamente de Github, nomalmente solo buscas en google como la libreria con la extension jl "DataFrames.jl" y descargas el zip, para instalarlo localmente, para hacer eso, es tan facil como colocar el siguiente comando en un script julia. `] add C/directorio/donde/esta/la/libreria/abierta
 - Usar `|>` que es el pipe de R `%>%` en Julia  
+- No instalar mediante lo anterior los graficadores, los cuales tienen un programa adicional a instalar 
+- 
