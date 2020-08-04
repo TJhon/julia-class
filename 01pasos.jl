@@ -59,3 +59,12 @@ mitup[5]
 
 ## diccionarios usados como `=>`
 
+
+notas = Dict(
+"primer" => 12, 
+"segundo" => 13
+)
+
+notas[2] # no funciona con el numero de elemento 
+notas["segundo1"]
+
